@@ -1,0 +1,22 @@
+
+def myAnswer(N, K) : 
+    count = 0 
+    while True:
+        if N%K == 0 : 
+            N = N//K
+            count +=1
+        else:     
+            N -= 1 
+            count +=1 
+
+        if N == 1 :
+            print(count)
+            break 
+
+
+
+
+
+if __name__ == "__main__":
+    N, K = map(int, input().split())
+    myAnswer(N,K)
