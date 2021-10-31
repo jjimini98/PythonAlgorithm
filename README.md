@@ -1,8 +1,5 @@
 # coding_test_python_ver 
 
-이코테
-
-이코테 
 - [x]  그리디
 - [ ]  구현
 - [ ]  DFS/BFS
