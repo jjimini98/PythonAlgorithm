@@ -1,7 +1,7 @@
 # coding_test_python_ver 
 
 - [x]  그리디
-- [ ]  구현
+- [x]  구현
 - [ ]  DFS/BFS
 - [ ]  정렬
 - [ ]  이진 탐색
