@@ -1,5 +1,4 @@
-# 2798. 블랙잭
-from ast import Num
+# 2798. 블랙잭 미완료.. 
 import sys
 
 N, M = map(int, sys.stdin.readline().split(" "))
