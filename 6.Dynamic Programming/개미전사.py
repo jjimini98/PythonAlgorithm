@@ -11,3 +11,4 @@ for x in range(2,N):
     d[x] = max(d[x-1], d[x-2]+storage[x])
 
 print(d[x])
+
