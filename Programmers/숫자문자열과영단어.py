@@ -5,8 +5,7 @@
 def solution(s):
     numbers = ["zero" ,"one","two" ,"three","four","five" , "six", "seven" ,"eight","nine"]
     for num in numbers:
-        if s.find(num) != -1:
-            s = s.replace(num, str(numbers.index(num)))
+        s = s.replace(num, str(numbers.index(num))) #replace가 다 변경해줌. find 이런거 필요없겠군.. 
     return int(s)
 
 
