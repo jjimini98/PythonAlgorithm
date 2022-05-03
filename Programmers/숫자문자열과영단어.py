@@ -8,7 +8,7 @@ def solution(s):
     for num in numbers:
         if s.find(num) != -1:
             s = s.replace(num, str(numbers.index(num)))
-    return s
+    return int(s)
 
 
 if __name__ == "__main__":
